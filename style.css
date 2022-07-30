@@ -1,0 +1,63 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    text-align: center;
+    margin: 25px;
+}
+
+.card {
+    margin: 0% auto;
+    max-width: 350px;
+    text-align: center;
+    margin-top: 10px;
+    box-shadow: 0 4px 9px rgb( 123, 123, 218);
+    transition: 0.4s;
+}
+
+.card:hover {
+    box-shadow: 0 21px 35px rgb( 123, 123, 218);
+}
+
+.calc-head #result {
+    width: 333px;
+    height: 85px;
+    text-align: right;
+    padding-right: 5px;
+    font-size: 28px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: 2px solid black;
+}
+
+.calc-head #result:hover {
+    background-color: rgb( 202, 207, 218);
+}
+
+.bttn {
+    width: 82px;
+    height: 68px;
+    background-color: slateblue;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bttn:hover {
+    background-color: chartreuse;
+}
+
+#difbttn {
+    background-color: darkgoldenrod;
+}
+
+#difbttn:hover {
+    background-color: rgb( 19, 197, 158);
+}
+
+#difbttnfont {
+    font-size: 24px;
+    padding-bottom: 5px;
+}
